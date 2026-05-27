@@ -1,4 +1,4 @@
-var proxy = 'SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;';
+var proxy = 'PROXY 192.168.1.31:7897; DIRECT;';
 var rules = [
     [
         [],
@@ -931,6 +931,7 @@ var rules = [
             "dougscripts.com",
             "doujincafe.com",
             "dowjones.com",
+            "dowjones.io",
             "dpool.top",
             "dpp.org.tw",
             "dpr.info",
